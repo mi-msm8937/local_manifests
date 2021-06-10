@@ -4,6 +4,9 @@
            fetch="https://github.com/mi-msm8937"
            revision="lineage-18.1" />
 
+  <remote  name="github"
+           fetch="https://github.com" />
+
  <!-- Update some repos from LineageOS -->
   <remote  name="LineageOS"
            fetch="https://github.com"
