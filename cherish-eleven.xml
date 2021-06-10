@@ -17,7 +17,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="LineageOS" revision="lineage-18.1-legacy-um"/>
 
  <!-- Kernels -->
-  <project path="kernel/xiaomi/msm8937" remote="mi-msm8937" name="android_kernel_xiaomi_msm8937"/>
+  <project path="kernel/xiaomi/msm8937" remote="mi-msm8937" name="android_kernel_xiaomi_msm8937" revision="11"/>
   <project path="kernel/xiaomi/sdm439"  remote="github"     name="Xiaomi-SDM439-Development/android_kernel_xiaomi_sdm439" revision="a11/clean-iwlan"/>
 
  <!-- Device Trees -->
