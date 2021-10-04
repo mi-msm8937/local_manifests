@@ -4,6 +4,15 @@
            fetch="https://github.com/mi-msm8937"
            revision="eleven" />
 
+ <!-- Update some repos from LineageOS -->
+  <remote  name="LineageOS"
+           fetch="https://github.com"
+           revision="refs/heads/lineage-18.1"/>
+  <remove-project name="android_device_qcom_sepolicy"/>
+  <remove-project name="android_vendor_qcom_opensource_interfaces"/>
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="LineageOS"/>
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="LineageOS" revision="lineage-18.1-legacy-um"/>
+
  <!-- Kernels -->
   <project path="kernel/xiaomi/msm8937" remote="mi-msm8937" name="android_kernel_xiaomi_msm8937"/>
 
