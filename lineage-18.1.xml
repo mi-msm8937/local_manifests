@@ -9,7 +9,7 @@
            revision="lineage-18.1" />
 
  <!-- Kernels -->
-  <project path="kernel/xiaomi/msm8937" remote="mi-msm8937" name="android_kernel_xiaomi_msm8937"/>
+  <project path="kernel/xiaomi/msm8937" remote="mi-msm8937" name="android_kernel_xiaomi_msm8937" revision="a12/master"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/msm8937-common"  name="android_device_xiaomi_msm8937-common"  groups="device" remote="mi-msm8937"/>
