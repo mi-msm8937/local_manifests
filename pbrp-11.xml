@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="mi-msm8937"
            fetch="https://github.com/mi-msm8937"
-           revision="android-11"/>
+           revision="android-11.0"/>
 
  <!-- Dependency -->
   <project path="device/qcom/twrp-common" remote="TeamWin" name="android_device_qcom_twrp-common" revision="android-11"/>
