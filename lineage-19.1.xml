@@ -12,6 +12,9 @@
            fetch="https://github.com/mi-sdm439"
            revision="lineage-19.0" />
 
+ <!-- LOS18.1 Components -->
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" />
+
  <!-- Replacements -->
   <remove-project name="LineageOS/android_bionic"/>
   <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
