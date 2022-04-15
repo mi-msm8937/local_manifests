@@ -9,5 +9,5 @@
 
  <!-- Device Tree -->
   <project path="device/xiaomi/mi8937"  name="twrp_device_xiaomi_mi8937-new"  groups="device" remote="mi-msm8937"/>
-  <project path="device/xiaomi/mi8937"  name="twrp_device_xiaomi_mi8937-new"  groups="device" remote="mi-msm8937" revision="android-11.0_tiare"/>
+  <project path="device/xiaomi/tiare"   name="twrp_device_xiaomi_mi8937-new"  groups="device" remote="mi-msm8937" revision="android-11.0_tiare"/>
 </manifest>
